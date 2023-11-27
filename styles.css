@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: 1;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serifs;
+    
+  }
+
+nav{
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+    height: 60px;
+    color: #0d204d;
+}
+
+nav img{
+    margin-top: 20px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    float: right;
+    margin: 30px 10px 0px 650px;
+}
+
+nav ul li{
+    padding: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+header div{
+    background-image: url(images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+    width: 100% ;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header div h1{
+    padding-top: 250px;
+    font-size: 80px;
+}
+
+header div h5{
+    padding-bottom: 250px;
+    font-size: 25px;
+}
+
+.aprp{
+    background-image: url(images/Logo-Ecole-229-600x600.jpg);
+    background-size: contain;
+    height: 500px;
+    width: 100%;
+    color: #333c4e;
+}
+
+.gal{
+    background-image: url(images/Logo-Ecole-229-600x600.jpg);
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+    color: #333c4e;
+}
+
+.aprp h1{
+    padding-top: 100px;
+}
+
+.gal h1{
+    padding-top: 40px;
+}
+
+.aprp h5{
+    padding-bottom: 100px;
+}
+
+.section1{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 45px;
+    color: #333c4e;
+}
+
+.section1 h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+hr{
+    width: 200px;
+    height: 2px;
+    border-style: solid;
+    margin-left: 43%;
+
+}
+
+.section2{
+    display: flex;
+    color: rgb(104, 101, 101);
+    line-height: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.section2 div{
+    width: 70%;
+    margin-left: 40px;
+    align-self: center;
+    text-align: left;
+}
+
+.section2 div h2{
+    color: #333c4e;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.section2 img{
+    width: 20%;
+    height: 280px;
+}
+.section3{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: #333c4e;
+}
+
+
+
+.section3 h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.section3 div{
+    display: flex;
+    width: 100%;
+}
+
+.section3 div img{
+    width: 500px;
+    height: 550px;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+#line4 img{
+    width: 450px;
+    height: 500px;
+}
+
+#line3{
+    width: 430px;
+    height: 550px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: #333c4e;
+    padding: 30px 0px 30px 0px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.g1 h2{
+    color: #333c4e;
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.g1 p{
+    color: #676c75;
+    line-height: 30px;
+    margin: 20px 20px 20px 200px;
+    width: 70%;
+    text-align: justify;
+}
+.form-group {
+    max-width: 555px;
+    width: 100%;
+    
+  }
+  
+  .form-control {
+    background: transparent;
+    border: solid 1px black;
+    padding: 15px 10px;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 15px;
+  }
+  .tm-bg-white-transparent {
+    background-color: #333c4e;
+  }
+
+  .welcome {
+    height: 534px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    text-align: center;
+    align-items: center;
+  }
+#welcome {
+    position: relative;
+    align-items: center;
+    background-color: transparent;
+    background-image: url( img/mini-profile-bg-01.jpg );
+    background-attachment: fixed;
+  }
+
+  .gerauld{
+    background-image: url(images/IMG-20231016-WA0029.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height:550px;
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+    display: block !important;
+    margin: 20px;
+  }
+
+  .qualités{
+    border: solid 1px #0d204d;
+    align-self: flex-end;
+    display: block !important;
+    width: 50% !important;
+    padding: 5px;
+    margin-left: 50%;
+  }
+
+  .qualités h4{
+    text-decoration: underline;
+    color: green;
+  }
+
+  .défauts{
+    border: solid 1px #0d204d;
+    align-self: flex-end;
+    display: block !important;
+    width: 50% !important;
+    padding: 5px;  
+    margin-left: 50%;
+  }
+
+  .défauts h4{
+    text-decoration: underline;
+    color: orange;
+  }
